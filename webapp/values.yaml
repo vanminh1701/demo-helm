@@ -1,0 +1,11 @@
+appName: mywebapp
+namespace: default
+
+configmap:
+  name: myconfigmapv1.0
+  data:
+    CUSTOM_HEADER: Customized with a configmap!
+
+image:
+  name: devopsjourney1/mywebapp
+  tag: latest
