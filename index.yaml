@@ -3,7 +3,17 @@ entries:
   webapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-06T16:46:09.666569993+07:00"
+    created: "2023-09-06T16:59:01.633277719+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 88bea8c5f0340e5b6839f43a7f7e1fecdf644c96ab9fc60abf3aa221b9e5fd78
+    name: webapp
+    type: application
+    urls:
+    - https://github.com/vanminh1701/demo-helm/webapp-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-06T16:59:01.633159496+07:00"
     description: A Helm chart for Kubernetes
     digest: 05561f516b5c4f439cc9301945b33c4847cdd37292a1a1e818c127e2435d820d
     name: webapp
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/vanminh1701/demo-helm/webapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-06T16:46:09.666319423+07:00"
+generated: "2023-09-06T16:59:01.632935046+07:00"
